@@ -1,0 +1,11 @@
+.mainHeader {
+  padding: 3em 5em;
+  background-color: #848586;
+  color: #280003;
+}
+#businessName {
+  padding: 3em 5em;
+  background-color: #BAA898;
+  font-size: 15px;
+  color: #280003;
+}
