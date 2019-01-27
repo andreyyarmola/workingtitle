@@ -3,8 +3,9 @@ const nextName = document.getElementById("resetButton");
 function generateword() {
   var text = "";
   var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  var wordlength = Math.floor(Math.random() * 11) + 5;
 
-  for (var i = 0; i < 7; i++)
+  for (var i = 0; i < wordlength; i++)
     text += possible.charAt(Math.floor(Math.random() * possible.length));
     document.getElementById("businessName").innerHTML = text;
 }
