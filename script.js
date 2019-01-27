@@ -2,11 +2,15 @@ const nextName = document.getElementById("resetButton");
 
 function generateword() {
   var text = "";
-  var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  var wordlength = Math.floor(Math.random() * 11) + 5;
+  //var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  var consonants = "BCDFGHJKLMNPRSTVWXZ";
+  var vowels = "AEIOU"
+  var wordlength = Math.floor(Math.random() * 4) + 2;
 
   for (var i = 0; i < wordlength; i++)
-    text += possible.charAt(Math.floor(Math.random() * possible.length));
+    //text += possible.charAt(Math.floor(Math.random() * possible.length));
+    text += consonants.charAt(Math.floor(Math.random() * consonants.length)) +
+    vowels.charAt(Math.floor(Math.random() * vowels.length));
     document.getElementById("businessName").innerHTML = text;
 }
 
