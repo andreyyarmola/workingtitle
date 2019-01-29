@@ -1,11 +1,47 @@
+body {
+  background-color: #261F21;
+}
 .mainHeader {
-  padding: 3em 5em;
-  background-color: #848586;
-  color: #280003;
+  padding: 1vw 1vw;
+  background-color: #261F21;
+  color: #9B3F22;
+  font-size: 2.5vw;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Dosis', sans-serif;
 }
 #businessName {
-  padding: 3em 5em;
-  background-color: #BAA898;
-  font-size: 15px;
-  color: #280003;
+  padding: 3vw 1vw;
+  background-color: #A0A6A2;
+  font-size: 7vw;
+  color: #261F21;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Dosis', sans-serif;
+}
+
+#resetButton {
+  background-color: #9B3F22;
+  border: none;
+  color: #F4EEE2;
+  padding: 1vw 0.1vw;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  display: block;
+  font-size: 6vw;
+/*  width: 15vw; */
+  margin: 6vw 15vw;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: 'Dosis', sans-serif;
+}
+#resetButton:hover {
+  background-color: #B5886F;
+  color: #F4EEE2;
+}
+#resetButton:active {
+  background-color: #F9FAFA;
+  color: #261F21;
 }

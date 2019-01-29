@@ -5,7 +5,7 @@ function generateword() {
   //var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   var consonants = "BCDFGHJKLMNPRSTVWXZ";
   var vowels = "AEIOU"
-  var wordlength = Math.floor(Math.random() * 4) + 2;
+  var wordlength = Math.floor(Math.random() * 3) + 2;
 
   for (var i = 0; i < wordlength; i++)
     //text += possible.charAt(Math.floor(Math.random() * possible.length));
